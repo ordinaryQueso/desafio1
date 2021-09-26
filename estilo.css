@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+    background-color:rgb(222, 247, 239);
+}
+
+#bloco-principal {
+   
+    width: 650px;
+    height: 420px;
+    margin: auto ;
+    margin-top: 80px;
+    box-shadow: 2px 2px 2px 2px rgba(151, 134, 134, 0.24);
+    border-radius: 7px;;
+    
+}
+
+.container1{
+    height: 210px;
+    width: auto;
+    background-color: white;
+    border-radius: 7px 7px 0 0;
+}
+
+.container2{
+    
+    background-color: rgba(3, 146, 146, 0.651);
+    margin-top: auto;
+    height: 210px;
+    width: 325px;
+    border-radius: 0 0  0 7px;
+}
+
+.container3{
+    
+    background-color: rgb(117, 170, 206);
+    margin-top: -210px;
+    height: 210px;
+    margin-left: auto;
+    width: 325px;
+    border-radius: 0 0 7px 0;
+}
+
+.texto {
+    padding: 28px;
+}
+
+.container1 .texto h2{
+    color: rgb(79, 172, 248);
+}
+.container1 .texto #p1 {
+    color:rgb(187, 240, 64);
+}
+
+.container1 .texto #p2 {
+    color: rgb(161, 145, 161);
+
+}
+
+.container2 .texto {
+    color: white;
+}
+
+.container2 .texto #p3 {
+    color: rgb(240, 235, 235);
+}
+
+.container3 .texto h3 {
+    color: rgb(252, 252, 252);
+    
+}
+
+.container3 .texto #p4{
+    text-align: justify;
+    color: rgb(231, 228, 228);
+}
+
+.container2 a {
+    display: block;
+    background-color:yellowgreen;
+    text-decoration: none;
+    color: white;
+    padding: 0.8em;
+    height: 1.5em;
+    margin: -1em auto;
+    width: 14em;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.container2 a:hover {
+    background-color: rgb(154, 226, 9);
+}
